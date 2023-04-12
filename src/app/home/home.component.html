@@ -1,0 +1,27 @@
+<div class="home-content">
+  <div class="list-group visit-list">
+    <p class="heading" aria-current="page">Places Visited in Canada</p>
+  </div>
+  <div class="list-group visit-list">
+    <div *ngFor="let item of items" class="list-group-item list-group-item-action flex-column align-items-start">
+      <div class="row">
+        <div class="col col-md-8 text-col">
+          <h5 class="mb-1">{{item.payload.doc.data().name}}</h5>
+          <h5 class="mb-2">{{item.payload.doc.data().visitDate}}</h5>
+          <small class="mb-2">rating: {{item.payload.doc.data().rating}}</small>
+          <p>Experience: {{item.payload.doc.data().experience}}</p>
+        </div>
+        <div class="col col-md-2 actions-col">
+          <button class="btn btn-outline-primary action" (click)="viewDetails(item)" type="button">Update
+          </button>
+        </div>
+
+        <div class="col col-md-2 actions-col">
+          <button class="btn btn-outline-danger action" (click)="delete(item)" type="button">Delete
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

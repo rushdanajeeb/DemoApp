@@ -1,0 +1,33 @@
+.home-content {
+  padding-top: 2%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+
+.mb-2 {
+  text-align: right;
+}
+
+.visit-list {
+  padding: 40px 60px;
+}
+
+.visit-list .text-col {
+  margin: auto 0px;
+}
+
+.visit-list .actions-col {
+  text-align: center;
+  margin: auto 0px;
+}
+
+.visit-list .actions-col .action {
+  line-height: 1;
+}
+
+.visit-list .actions-col .icon {
+  font-size: 20px;
+}

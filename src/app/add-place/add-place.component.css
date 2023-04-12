@@ -1,0 +1,28 @@
+.create-page {
+  padding: 20px 60px;
+  padding-top: 5%;
+}
+
+.create-page .page-content {
+  background-color: #FFF;
+}
+
+.create-page .page-content .create-form {
+  padding: 5%;
+}
+
+.create-page .page-content .create-form .submit-button-container {
+  justify-content: flex-end;
+}
+
+.create-page .page-content .create-form .submit-button-container .submit-button {
+  width: 100%;
+}
+
+.create-page .page-content .create-form .input-style {
+  width: 100%;
+}
+
+.create-page .page-content .create-form .mat-error {
+  font-size: 12px;
+}

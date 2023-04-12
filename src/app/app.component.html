@@ -1,0 +1,24 @@
+<div class="page-container">
+	<div class="side-bar">
+		<ul class="nav flex-column">
+			<li class="nav-item">
+				<a class="nav-link active" routerLink="home">
+					<button class="btn btn-outline-light">List Destinations</button>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" routerLink="add-place">
+					<button class="btn btn-outline-light">Add Destination</button>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" routerLink="date-sort">
+					<button class="btn btn-outline-light">Sort by Date</button>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="content-container">
+		<router-outlet></router-outlet>
+	</div>
+</div>

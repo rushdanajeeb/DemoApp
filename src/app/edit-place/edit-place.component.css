@@ -1,0 +1,32 @@
+.edit-page {
+  padding: 20px 60px;
+  padding-top: 5%;
+}
+
+.edit-page .page-content {
+  background-color: #FFF;
+}
+
+.edit-page .page-content .edit-form {
+  padding: 20px;
+}
+
+.edit-page .page-content .edit-form .submit-button-container {
+  justify-content: flex-end;
+}
+
+.edit-page .page-content .edit-form .submit-button-container .submit-button {
+  width: 100%;
+}
+
+.edit-page .page-content .edit-form .submit-button-container .delete-button {
+  width: 100%;
+}
+
+.edit-page .page-content .edit-form .input-style {
+  width: 100%;
+}
+
+.edit-page .page-content .edit-form .mat-error {
+  font-size: 12px;
+}
